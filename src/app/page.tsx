@@ -442,11 +442,18 @@ export default function Home() {
           <div className="mt-auto flex justify-between items-center border-t border-gray-900 pt-4">
             <span> &copy; 2020 All Rights Reserved</span>
             <ul className="flex justify-between items-center gap-4 text-white">
-              <li className="flex justify-center items-center bg-gray-200 bg-opacity-30 p-2 rounded-full">
-                <Linkedin size={20} />
+              <li className="flex justify-center items-center bg-gray-200 bg-opacity-30 p-2 rounded-full cursor-pointer">
+                <a
+                  href="https://www.linkedin.com/in/gabriel--vicente/"
+                  target="_blank"
+                >
+                  <Linkedin size={20} />
+                </a>
               </li>
-              <li className="flex justify-center items-center bg-gray-200 bg-opacity-30 p-2 rounded-full">
-                <Github size={20} />
+              <li className="flex justify-center items-center bg-gray-200 bg-opacity-30 p-2 rounded-full cursor-pointer">
+                <a href="https://github.com/hastalamuerteg" target="_blank">
+                  <Github size={20} />
+                </a>
               </li>
             </ul>
           </div>
